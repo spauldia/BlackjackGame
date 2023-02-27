@@ -60,6 +60,8 @@ function renderGame() {
     message = "You win! 🏆";
   } else if (sum <= 20) {
     message = "Do you want to draw another card?";
+  } else if (sum > 21 && opponentsum > 21) {
+    message = "You both wen't over and lost!!";
   } else {
     message = "You went over and lost!";
     isAlive = false;
