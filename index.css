@@ -12,7 +12,7 @@ body {
 h1 {
   color: goldenrod;
   font-weight: bolder;
-  font-size:50px;
+  font-size: 50px;
 }
 
 #message-el {
@@ -23,18 +23,24 @@ h1 {
 #play-btn {
   color: #016f32;
   font-weight: bolder;
-  background:goldenrod;
+  background: goldenrod;
   width: 150px;
   border: none;
-  
 }
 
 #newcard-btn {
-    color: #016f32;
-    font-weight: bolder;
-    background:goldenrod;
-    width: 150px;
-    border: none;
-    margin-top: 10px;
-    
-  }
+  color: #016f32;
+  font-weight: bolder;
+  background: goldenrod;
+  width: 150px;
+  border: none;
+  margin-top: 10px;
+}
+
+.readout {
+  color:tomato
+}
+
+h6 {
+    font-size: 12px;
+}
