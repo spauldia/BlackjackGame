@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-image: url("casinotable.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bolder;
+  color: antiquewhite;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  color: goldenrod;
+  font-weight: bolder;
+  font-size:50px;
+}
+
+#message-el {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#play-btn {
+  color: #016f32;
+  font-weight: bolder;
+  background:goldenrod;
+  width: 150px;
+  border: none;
+  
+}
+
+#newcard-btn {
+    color: #016f32;
+    font-weight: bolder;
+    background:goldenrod;
+    width: 150px;
+    border: none;
+    margin-top: 10px;
+    
+  }

@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 class="blackjack">Blackjack</h1>
+    <br>
+    <br>
+
+    <p id = "message-el">Want to play a round?</p>
+    <br>
+    <p id = "cards">Cards:</p>
+    <p id = "sum">Sum:</p>
+    <br>
+    <button type="button" class="btn btn-warning" id = "play-btn" onclick = "startGame()">Start Game!</button>
+    <br>
+    <button type="button" class="btn btn-warning" id = "newcard-btn" onclick = "newCard()">New Card...</button>
+    <br>
+    <br>
+    <p id = "player-el"></p>
+    <script src="index.js"></script>
 </body>
 </html>
